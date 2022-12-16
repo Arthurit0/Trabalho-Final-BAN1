@@ -58,8 +58,6 @@ public class Principal {
         con.close();
     }    
     
-    private static int clear();
-    
     private static int menu() {
         System.out.println("");
         System.out.println("Informe o número da opção que desejas executar: ");

@@ -57,7 +57,7 @@ public class PublicacaoController {
             String dataStr = input.next();
             SimpleDateFormat parser = new SimpleDateFormat("DD/MM/YYYY");
             Date dataPub = parser.parse(dataStr);
-            
+            input.nextLine();
             String tipoPub, arquivo="";
             int id_pub = -1, id_regiao = -1, id_mencao = -1;
             
